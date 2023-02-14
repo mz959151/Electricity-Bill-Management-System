@@ -1,0 +1,29 @@
+CREATE TABLE ELECTRICITY_BILL(
+  id INTEGER ,
+  Full_Name varchar(20)  NOT NULL,
+  Consumer_No TEXT NOT NULL ,
+  Phone_Number INTEGER ,
+  Email TEXT NOT NULL,
+  payable_amount INTEGER 
+);
+INSERT INTO ELECTRICITY_BILL VALUES (1, 'Omkar Gopchade', 'xxxx2110',9689158926,'omkargopchade@gmail.com',121); 
+INSERT INTO ELECTRICITY_BILL VALUES (2, 'Rushikesh wakode','xxxx2111',8624957601,'Rushikeshwakode@gmail.com',200);
+INSERT INTO ELECTRICITY_BILL VALUES (3, 'Anand kshirsagar','xxxx2112',7028350347,'anandkshirsagar@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (4, 'shridhar borule','xxxx2113',9322563039, 'Shridharborule@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (5, 'Rutik dongre','xxxx2114',7666422940,'Rutikdongre@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (6, 'Datatraya raut','xxxx2115',7385688905, 'dattatrayraut@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (7, 'Laxman bhandrwad','xxxx2116',9130569088, 'Laxmanbhandrwad@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (8, 'shivprasad swami','xxxx2117',9765774114, 'shivprasadswami@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (9, 'gopal padalkar','xxxx2118',7058365196,'gopalpadalkar@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (10, 'sumit kavare','xxxx2119',8390912864,'sumitkavare@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (11, 'sakhre munja','xxxx2120',8080052056,'sakhremunja@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (12, 'yogesh akhre','xxxx2121',9325215572,'yogeshakhre@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (13, 'Rushikesh Panchal','xxxx2122',9322093379,'rushikeshpanchal@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (14, 'Amol shinde','xxxx2123',8999262471,'Amolshinde@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (15, 'sumit narwade','xxxx2124',9172827399,'sumitnarwade@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (16, 'nagesh gore','xxxx2125',7383691922,'Nageshgore@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (17, 'Avishkar borule','xxxx2126',9823805459,'avishkarborule@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (18, 'Nagesh lagde','xxxx2127',8080941426,'nageshlagde@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (19, 'Priya patil','xxxx2128',8459455077,'priyapatil@gmail.com',201);
+INSERT INTO ELECTRICITY_BILL VALUES (20, 'Swati jayade','xxxx2129',8007521521,'swatijayade@gmail.com',201);
+SELECT * FROM ELECTRICITY_BILL ;
